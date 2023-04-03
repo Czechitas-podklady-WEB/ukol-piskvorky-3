@@ -6,8 +6,6 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
 1.  Pokračuj v repozitáři `piskvorky` z předchozích úkolů.
 
-1.  Vytvoř a napoj do stránky `hra.html` javascriptový soubor `hra.js`.
-
 1.  V několika dalších krocích budeš oživovat pouze první řádek herní plochy, prvních deset políček. Zbylých 90 políček budeš oživovat až v dalších úkolech. Až po tom, co si v lekcích ukážeme další javascriptové vychytávky.
 
     ![zvýrazněných prvních deset políček](zadani/prvnich-deset.png)
@@ -21,6 +19,8 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
       - Lehčí varianta: Stáhni si ikonky [circle.svg](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-3/raw/main/podklady/circle.svg) a [cross.svg](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-3/raw/main/podklady/cross.svg) a použij je jako pozadí políčka (`background-image`).
 
       - Těžší (bonusová) varianta: Vytvoř si kolečka a křížky pomocí CSS pseudopvků.
+
+    - Vytvoř a napoj do stránky `hra.html` javascriptový soubor `hra.js`.
 
     - V javascriptu si nachystej proměnnou, která bude obsahovat informaci o tom, kdo je na tahu. Například `let currentPlayer = 'circle'`, protože hru začíná kolečko.
 
