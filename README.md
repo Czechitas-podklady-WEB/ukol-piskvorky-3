@@ -26,6 +26,8 @@ Tento úkol navazuje na [Piškvorky 3](https://github.com/Czechitas-podklady-WEB
 
     - Všem deseti tlačítkům přidej posluchač události na kliknutí.
 
+      - V selektorech si můžeš pomoct pseudotřídou `nth-child`. Například `document.querySelector('button:nth-child(5)')` vybere páté tlačítko (za předpokladu, že prvky `<button>` máš pouze v herní ploše). `document.querySelector('button:nth-child(6)')` vybere šesté, atd.
+
     - Vytvoř funkci pro posluchač, která políčku, na které uživatel kliknul (`event.target`), přidá příslušnou třídu. (Pro zjednodušení zkus přidávat nejdříve jen kolečka.)
 
       ![přidávání koleček](zadani/jen-kolecka.gif)
@@ -44,7 +46,7 @@ Tento úkol navazuje na [Piškvorky 3](https://github.com/Czechitas-podklady-WEB
 
       ![opraven dvojitý tah](zadani/opraven-dvojity-tah.gif)
 
-1.  Může se stát, že uživatel se omylem uklikne a tlačítkem pro restart přijde o rozehranou hru. Proto přidej odkazu, tomu modrému, posluchač události, který se po kliknutí uživatele zeptá zabudovanou funcí `confirm`, jestli chce hru opravdu restartovat. Pokud ne, zavolej `event.preventDefault()` a tak zabráníš odkazu, aby se provedl.
+1.  Může se stát, že uživatel se omylem uklikne a tlačítkem pro restart přijde o rozehranou hru. Proto přidej odkazu, tomu modrému, posluchač události, který se po kliknutí uživatele zeptá zabudovanou funcí `confirm`, jestli chce hru opravdu restartovat. Pokud ne, zavolej `event.preventDefault()` a tak zabráníš odkazu, aby se provedl. Funkce `confirm` vrací `true` nebo `false` podle toho, zda uživatel potvrdil nebo zrušil dialog.
 
     ![ukázka restartu](zadani/restart.gif)
 
