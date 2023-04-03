@@ -1,6 +1,6 @@
 # Úkol: Piškvorky 3/5
 
-Tento úkol navazuje na [Piškvorky 3](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-2). Čeká tě oživění prvních pár políček a vylepšení tlačítka pro restart hry.
+Tento úkol navazuje na [Piškvorky 3](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-2). Čeká tě oživění prvních pár políček a volitelně i vylepšení tlačítka pro restart hry.
 
 ## Zadání
 
@@ -46,11 +46,11 @@ Tento úkol navazuje na [Piškvorky 3](https://github.com/Czechitas-podklady-WEB
 
       ![opraven dvojitý tah](zadani/opraven-dvojity-tah.gif)
 
-1.  Může se stát, že uživatel se omylem uklikne a tlačítkem pro restart přijde o rozehranou hru. Proto přidej odkazu, tomu modrému, posluchač události, který se po kliknutí uživatele zeptá zabudovanou funcí `confirm`, jestli chce hru opravdu restartovat. Pokud ne, zavolej `event.preventDefault()` a tak zabráníš odkazu, aby se provedl. Funkce `confirm` vrací `true` nebo `false` podle toho, zda uživatel potvrdil nebo zrušil dialog.
-
-    ![ukázka restartu](zadani/restart.gif)
-
 ## Bonus
+
+- Může se stát, že uživatel se omylem uklikne a tlačítkem pro restart přijde o rozehranou hru. Proto přidej odkazu, tomu modrému, posluchač události, který se po kliknutí uživatele zeptá zabudovanou funcí `confirm`, jestli chce hru opravdu restartovat. Pokud ne, zavolej `event.preventDefault()` a tak zabráníš odkazu, aby se provedl. Funkce `confirm` vrací `true` nebo `false` podle toho, zda uživatel potvrdil nebo zrušil dialog.
+
+  ![ukázka restartu](zadani/restart.gif)
 
 - Pomocí animací přidej symbolům efekt postupného zvětšení. V náhledu je animace zpomalená z času `0.15s` na `0.45s`, aby bylo lépe vidět, jak má vypadat. V tvém kódu po otestování použij čas kratší, aby hra působila svižně.
 
