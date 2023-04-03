@@ -6,7 +6,7 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
 1.  Pokračuj v repozitáři `piskvorky` z předchozích úkolů.
 
-1.  V několika dalších krocích budeš oživovat pouze první řádek herní plochy, prvních deset políček. Zbylých 90 políček budeš oživovat až v dalších úkolech. Až po tom, co si v lekcích ukážeme další javascriptové vychytávky.
+1.  V několika dalších krocích budeš oživovat pouze první řádek herní plochy, prvních deset políček. Zbylých 90 políček budeš oživovat až v dalších úkolech. Až po tom, co si v lekcích ukážeme další javascriptové vychytávky. Zbylá políčka na obrázku jsou zašedlá jen pro lepší představu. Ty je přestylovávat nemusíš.
 
     ![zvýrazněných prvních deset políček](zadani/prvnich-deset.png)
 
