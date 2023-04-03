@@ -18,7 +18,7 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
       - Lehčí varianta: Stáhni si ikonky [circle.svg](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-3/raw/main/podklady/circle.svg) a [cross.svg](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-3/raw/main/podklady/cross.svg) a použij je jako pozadí políčka (`background-image`).
 
-      - Těžší (bonusová) varianta: Vytvoř si kolečka a křížky pomocí CSS pseudopvků.
+      - Těžší (bonusová) varianta: Vytvoř si kolečka a křížky pomocí CSS pseudoprvků.
 
     - Vytvoř a napoj do stránky `hra.html` javascriptový soubor `hra.js`.
 
@@ -48,7 +48,7 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
 ## Bonus
 
-- Může se stát, že uživatel se omylem uklikne a tlačítkem pro restart přijde o rozehranou hru. Proto přidej odkazu, tomu modrému, posluchač události, který se po kliknutí uživatele zeptá zabudovanou funcí `confirm`, jestli chce hru opravdu restartovat. Pokud ne, zavolej `event.preventDefault()` a tak zabráníš odkazu, aby se provedl. Funkce `confirm` vrací `true` nebo `false` podle toho, zda uživatel potvrdil nebo zrušil dialog.
+- Může se stát, že uživatel se omylem uklikne a tlačítkem pro restart přijde o rozehranou hru. Proto přidej odkazu, tomu modrému, posluchač události, který se po kliknutí uživatele zeptá zabudovanou funcí `confirm`, jestli chce hru opravdu restartovat. Pokud ne, zavolej `event.preventDefault()`, a tak zabráníš odkazu, aby se provedl. Funkce `confirm` vrací `true` nebo `false` podle toho, zda uživatel potvrdil nebo zrušil dialog.
 
   ![ukázka restartu](zadani/restart.gif)
 
