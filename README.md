@@ -1,6 +1,6 @@
 # Úkol: Piškvorky 3/5
 
-Tento úkol navazuje na [Piškvorky 3](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-2). Čeká tě oživění prvních pár políček a volitelně i vylepšení tlačítka pro restart hry.
+Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-2). Čeká tě oživění prvních pár políček a volitelně i vylepšení tlačítka pro restart hry.
 
 ## Zadání
 
