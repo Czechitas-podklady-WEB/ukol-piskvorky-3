@@ -26,7 +26,7 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
     - Všem deseti tlačítkům přidej posluchač události na kliknutí.
 
-      - V selektorech si můžeš pomoct pseudotřídou `nth-child`. Například `document.querySelector('button:nth-child(5)')` vybere páté tlačítko (za předpokladu, že prvky `<button>` máš pouze v herní ploše). `document.querySelector('button:nth-child(6)')` vybere šesté, atd.
+      - V selektorech si můžeš pomoct pseudotřídou `nth-child`. Například `document.querySelector('button:nth-child(5)')` vybere páté tlačítko (za předpokladu, že prvky `<button>` mají stejného rodiče). `document.querySelector('button:nth-child(6)')` vybere šesté, atd. Pokud všechna tlačítka nemají společného rodiče, protože jsou třeba v tabulce, bude potřeba pomocí `nth-child()` vybrat buňku tabulky a v ní tlačítko – např. `document.querySelector('td:nth-child(5) button')` vybere pátou buňku tabulky a v ní vybere tlačítko. Vybrat takhle tlačítka v dalších řádcích tabulky by bylo ještě komplikovanější, ale v tom nám v dalších lekcích pomůže JavaScript.
 
     - Vytvoř funkci pro posluchač, která políčku, na které uživatel kliknul (`event.target`), přidá příslušnou třídu. (Pro zjednodušení zkus přidávat nejdříve jen kolečka.)
 
