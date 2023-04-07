@@ -48,7 +48,7 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
 ## Bonus
 
-- Může se stát, že uživatel se omylem uklikne a tlačítkem pro restart přijde o rozehranou hru. Proto přidej odkazu, tomu modrému, posluchač události, který se po kliknutí uživatele zeptá zabudovanou funcí `confirm`, jestli chce hru opravdu restartovat. Pokud ne, zavolej `event.preventDefault()`, a tak zabráníš odkazu, aby se provedl. Funkce `confirm` vrací `true` nebo `false` podle toho, zda uživatel potvrdil nebo zrušil dialog.
+- Může se stát, že uživatel se omylem uklikne a modrým tlačítkem pro restart přijde o rozehranou hru. Proto přidej modrému odkazu posluchač události, který se po kliknutí uživatele zeptá zabudovanou funcí `confirm`, jestli chce hru opravdu restartovat. Pokud ne, zavolej `event.preventDefault()`, čímž zabráníš tomu, aby prohlížeč přešel na odkazovanou stránku (tj. načetl stránku s prázdnou hrou). Funkce `confirm` vrací `true` nebo `false` podle toho, zda uživatel souhlasil nebo nesouhlasil s potvrzovací zprávou v dialogu.
 
   ![ukázka restartu](zadani/restart.gif)
 
