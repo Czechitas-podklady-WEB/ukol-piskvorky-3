@@ -12,13 +12,9 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
 1.  Zařiď, aby klikáním na políčka se v nich objevovaly kolečka a křížky a v levé části nad herní plochou se zobrazovala informace o tom, kdo je na tahu. Co budeš potřebovat:
 
-    - Nachystej si dvě CSS třídy (například `board__field--circle` a `board__field--cross`), které políčko dostylují tak, aby se na něm zobrazilo kolečko nebo křížek. Neboj se třídy otestovat tak, že je na zkoušku přidáš tlačítkům přímo v HTML. Po testu je z HTML nezapomeň smazat, protože tyto třídy bude přidávat a odebírat pouze javascript.
+    - Nachystej si dvě CSS třídy (například `board__field--circle` a `board__field--cross`), které políčko dostylují tak, aby se na něm zobrazilo kolečko nebo křížek. Neboj se třídy otestovat tak, že je na zkoušku přidáš tlačítkům přímo v HTML. Po testu je ale z HTML nezapomeň smazat, protože tyto třídy bude přidávat a odebírat pouze javascript.
 
       ![HTML zkouška tříd](zadani/html-zkouska.png)
-
-      - Lehčí varianta: Stáhni si ikonky [circle.svg](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-3/raw/main/podklady/circle.svg) a [cross.svg](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-3/raw/main/podklady/cross.svg) a použij je jako pozadí políčka (`background-image`).
-
-      - Těžší (bonusová) varianta: Vytvoř si kolečka a křížky pomocí CSS pseudoprvků.
 
     - Vytvoř a napoj do stránky `hra.html` javascriptový soubor `hra.js`.
 
