@@ -1,12 +1,12 @@
 # Úkol: Piškvorky 3/5
 
-Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-2). Čeká tě oživění prvních pár políček a volitelně i vylepšení tlačítka pro restart hry.
+Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB/Ukol-Piskvorky-2). Čeká tě oživení herních políček a volitelně i vylepšení tlačítka pro restart hry.
 
 ## Zadání
 
 1.  Pokračuj v repozitáři `piskvorky` z předchozích úkolů.
 
-1.  V několika dalších krocích budeš oživovat pouze první řádek herní plochy, prvních deset políček. Zbylých 90 políček budeš oživovat až v dalších úkolech. Až po tom, co si v lekcích ukážeme další javascriptové vychytávky. Zbylá políčka na obrázku jsou zašedlá jen pro lepší představu. Ty je přestylovávat nemusíš.
+1.  V několika dalších krocích budeš oživovat políčka herní plochy. První řádek oživených políček by vypadal nějak takto, ale s pomocí `querySelectorAll` zvládneš oživit najednou všechna políčka :-)
 
     ![zvýrazněných prvních deset políček](zadani/prvnich-deset.png)
 
@@ -22,13 +22,11 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
 1. V javascriptu si nachystej proměnnou, která bude obsahovat informaci o tom, kdo je na tahu. Například `let currentPlayer = 'circle'`, protože hru začíná kolečko. `let` je potřeba proto, protože kdo je zrovna na tahu se bude v průběhu hry měnit.
 
-1. _Další kroky dělej až po sobotní lekci._
+1. Všem tlačítkům přidej posluchač události na kliknutí –  použij `querySelectorAll`. Vyřešíš sto tlačítek jednou ranou :-)
 
-1. Všem deseti tlačítkům přidej posluchač události na kliknutí.
+1. Pokud všechna tlačítka nemají společného rodiče, protože jsou třeba v tabulce, bude potřeba použít složený selektor. Např. vybrat buňku tabulky a v ní tlačítko – např. `document.querySelector('td button')` vybere pátou buňku tabulky a v ní vybere tlačítko.
 
-1. V selektorech si můžeš pomoct pseudotřídou `nth-child`. Například `document.querySelector('button:nth-child(5)')` vybere páté tlačítko (za předpokladu, že prvky `<button>` mají stejného rodiče). `document.querySelector('button:nth-child(6)')` vybere šesté, atd. Pokud všechna tlačítka nemají společného rodiče, protože jsou třeba v tabulce, bude potřeba pomocí `nth-child()` vybrat buňku tabulky a v ní tlačítko – např. `document.querySelector('td:nth-child(5) button')` vybere pátou buňku tabulky a v ní vybere tlačítko. Vybrat takhle tlačítka v dalších řádcích tabulky by bylo ještě komplikovanější, ale v tom nám v dalších lekcích pomůže JavaScript.
-
-1. Vytvoř funkci pro posluchač, která políčku, na které uživatel kliknul (`event.target`), přidá příslušnou třídu. (Pro zjednodušení zkus přidávat nejdříve jen kolečka.)
+1. Vytvoř funkci pro obsluhu události `click` (posluchač události), která políčku, na které uživatel kliknul (`event.target`), přidá příslušnou třídu. (Pro zjednodušení zkus přidávat nejdříve jen kolečka.)
 
       ![přidávání koleček](zadani/jen-kolecka.gif)
 
