@@ -6,9 +6,7 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
 1.  Pokračuj v repozitáři `piskvorky` z předchozích úkolů.
 
-1.  V několika dalších krocích budeš oživovat políčka herní plochy. První řádek oživených políček by vypadal nějak takto, ale s pomocí `querySelectorAll` zvládneš oživit najednou všechna políčka :-)
-
-    ![zvýrazněných prvních deset políček](zadani/prvnich-deset.png)
+1.  V několika dalších krocích budeš oživovat políčka herní plochy. Díky `querySelectorAll` to bude skoro stejně snadné, jako oživit je jedno políčko 😎
 
 1. Cílem bude, aby klikáním na políčka se v nich objevovaly kolečka a křížky a v levé části nad herní plochou se zobrazovala informace o tom, kdo je na tahu.
 
@@ -22,7 +20,7 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
 1. V javascriptu si nachystej proměnnou, která bude obsahovat informaci o tom, kdo je na tahu. Například `let currentPlayer = 'circle'`, protože hru začíná kolečko. `let` je potřeba proto, protože kdo je zrovna na tahu se bude v průběhu hry měnit.
 
-1. Všem tlačítkům přidej posluchač události na kliknutí –  použij `querySelectorAll`. Vyřešíš sto tlačítek jednou ranou :-)
+1. Všem tlačítkům přidej posluchač události na kliknutí –  použij `querySelectorAll`. Vyřešíš sto tlačítek jednou ranou 💪🏻
 
 1. Pokud všechna tlačítka nemají společného rodiče, protože jsou třeba v tabulce, bude potřeba použít složený selektor. Např. vybrat buňku tabulky a v ní tlačítko – např. `document.querySelector('td button')` vybere pátou buňku tabulky a v ní vybere tlačítko.
 
@@ -50,6 +48,6 @@ Tento úkol navazuje na [Piškvorky 2](https://github.com/Czechitas-podklady-WEB
 
   ![ukázka restartu](zadani/restart.gif)
 
-1. Pomocí animací přidej symbolům efekt postupného zvětšení. V náhledu je animace zpomalená z času `0.15s` na `0.45s`, aby bylo lépe vidět, jak má vypadat. V tvém kódu po otestování použij čas kratší, aby hra působila svižně.
+1. Pomocí animací přidej symbolům efekt postupného zvětšení. V náhledu je animace zpomalená z času `0,15 s` na `0.45 s`, aby bylo lépe vidět, jak má vypadat. V tvém kódu po otestování použij čas kratší, aby hra působila svižně.
 
   ![animace](zadani/klik-animace.gif)
